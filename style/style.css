@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background-size: cover;
+    width: 96vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(https://www.bbvaopenmind.com/wp-content/uploads/2015/11/BBVA-OpenMind-J-Adolfo-de-Azcarraga-El-legado-de-Albert-Einstein-1979-1955.jpg);
+}
+h1{
+    font-size: 50px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    transition: 2s;
+}
+h1:hover{
+    font-size: 30px;
+    color: gray;
+}
+#numsSection{
+    border: 2px solid gray;
+    width: 335px;
+    margin-top: 23vh;
+    background-color: black;
+
+}
+#numbersDisplay{
+color: white;
+font-size: 30px;
+}
+.operators{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    background-color:white;
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'Press Start 2P', cursive;
+
+}
+.operators:hover{
+background-color: gray;
+font-size: 40px;
+}
+p{
+    border: white 2px solid;
+    font-family: 'Press Start 2P', cursive;
+
+}
+.nums{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    background-color: gray;
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'Press Start 2P', cursive;
+
+}
+.nums:hover{
+    border-radius: 30%;
+    background-color: white;
+}
+#numbersDisplay{
+    width: 325px;
+    height: 100px;
+}
+
+#calculate{
+    width: 333px;
+}
+#AC{
+    font-size: 30px;
+}
